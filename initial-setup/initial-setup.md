@@ -38,11 +38,15 @@ On each server, set a recognizable hostname:
 sudo hostnamectl set-hostname slurm-master   # example
 ```
 
+---
+
 ## 5. Generate SSH Key (on master)
 
 ```bash
 ssh-keygen -t rsa
 ```
+
+---
 
 ## 6. Set Up Passwordless SSH
 
@@ -57,6 +61,7 @@ cat ~/.ssh/id_rsa.pub
 sudo vim ~/.ssh/authorized_keys
 ```
 
+---
 
 ## 7. Update /etc/hosts
 
@@ -73,6 +78,8 @@ Example:
 172.31.22.102 slurm-compute2
 ...
 ```
+
+---
 
 ## 8. Verify SSH Connectivity
 From the master node, try:
