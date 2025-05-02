@@ -34,6 +34,8 @@ git clone -c feature.manyFiles=true --depth=2 https://github.com/spack/spack.git
 echo 'source $HOME/spack/share/spack/setup-env.sh' >> ~/.bashrc
 source ~/.bashrc
 ```
+**For spack packages info:** [Spack Packages](https://packages.spack.io/)
+
 ### Useful Spack CLI Commands
 ```bash
 | Command                                  | Description                                               |
@@ -84,10 +86,10 @@ source ~/.bashrc
 ### Installed Applications for Testing
 Using Spack, I installed and tested the following HPC applications:
 
--Bowtie2
--HPL (High-Performance Linpack)
--MPI (e.g., OpenMPI)
--BLAST
+- Bowtie2
+- HPL (High-Performance Linpack)
+- MPI (e.g., OpenMPI)
+- BLAST
 
 These were tested to validate application access and performance across nodes in the HPC cluster using the shared EFS.
 
