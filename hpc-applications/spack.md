@@ -34,7 +34,6 @@ git clone -c feature.manyFiles=true --depth=2 https://github.com/spack/spack.git
 echo 'source $HOME/spack/share/spack/setup-env.sh' >> ~/.bashrc
 source ~/.bashrc
 ```
-**For spack packages info:** [Spack Packages](https://packages.spack.io/)
 
 ### Useful Spack CLI Commands
 ```bash
@@ -59,6 +58,8 @@ source ~/.bashrc
 ```bash
 spack install bowtie2@2.4.1%gcc
 ```
+
+**For spack packages info:** [Spack Packages](https://packages.spack.io/)
 
 ### Where Are Packages Stored?
 Spack uses a built-in repository for package definitions:
