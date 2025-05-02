@@ -82,14 +82,16 @@ echo 'export MODULEPATH=$SPACK_ROOT/share/spack/lmod/linux-rhel8-x86_64:$MODULEP
 #Reload your shell to apply:
 source ~/.bashrc
 ```
+---
 
-### Installed Applications for Testing
+## Installed Applications for Testing
+
 Using Spack, I installed and tested the following HPC applications:
 
-- Bowtie2
-- HPL (High-Performance Linpack)
-- MPI (e.g., OpenMPI)
-- BLAST
+- **Bowtie2**
+- **HPL (High-Performance Linpack)**
+- **MPI (e.g., OpenMPI)**
+- **BLAST**
 
 These were tested to validate application access and performance across nodes in the HPC cluster using the shared EFS.
 
