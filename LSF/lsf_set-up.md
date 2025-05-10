@@ -161,6 +161,9 @@ bhosts   # Verify
 
 - Always ensure `install.config` and `lsf.conf` files are **identical across master and compute nodes**.
 - Add `source /home/lsf_home/conf/profile.lsf` to your `.bashrc` for persistent environment setup.
-
-
-
+- Since the LSF installation requires more space, you may run out of space, execute the following if it happens:
+  
+   ```bash
+   sudo lvextend -L+10G /dev/mapper/VolGroup00-LogVol07					
+   sudo lvdisplay /dev/mapper/VolGroup00-LogVol07					
+   sudo xfs_growfs /home					
