@@ -6,10 +6,9 @@ This guide provides step-by-step instructions to install the IBM LSF (Load Shari
 
 ## Prerequisites
 
-1. IBM Account - Required to download the LSF installer.
-2. Download the latest **LSF Community Edition tarball** from IBM:  
-   [IBM LSF Community Edition](https://www.ibm.com/products/spectrum-lsf/community-edition)
-3. Upload the `.tar.gz` file to your desired instance directory.
+1. Create IBM Account - Required to download the LSF installer. 
+3. Download the latest **LSF Community Edition tarball** from IBM: [`IBM LSF Community edition `](https://github.com/senpai-123/zeus-cluster/blob/main/LSF/install.config)  
+4. Upload the `.tar.gz` file to your desired instance directory.
 
 ---
 
@@ -39,7 +38,7 @@ cd lsf10.1_lsfinstall
 vim install.config  # Edit based on README instructions and ensure it matches across master and compute nodes
 ```
 
-#### Refer to [`install.config`]()  
+### Refer to [`install.config`](https://github.com/senpai-123/zeus-cluster/blob/main/LSF/install.config)  
 
 You can customize `install.config` according to your requirements. Below are the key parameters to update:
 
