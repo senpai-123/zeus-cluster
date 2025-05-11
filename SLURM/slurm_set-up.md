@@ -20,12 +20,12 @@ Enable the CRB (CodeReady Builder) repo:
 sudo dnf config-manager --set-enabled crb
 ```
 
-If CRB is not available, install packages manually:
+If CRB is not available, install packages manually, use `wget`:
 
-- [`hwloc-devel`](https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/hwloc-devel-2.2.0-3.el8.x86_64.rpm)
-- [`lua-devel`](https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/lua-devel-5.3.4-12.el8.x86_64.rpm)
-- [`rrdtool-devel`](https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/rrdtool-devel-1.7.0-16.el8.i686.rpm)
-- [`munge-devel`](https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/munge-devel-0.5.13-2.el8.x86_64.rpm)
+- https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/hwloc-devel-2.2.0-3.el8.x86_64.rpm
+- https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/lua-devel-5.3.4-12.el8.x86_64.rpm
+- https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/rrdtool-devel-1.7.0-16.el8.i686.rpm
+- https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/Packages/munge-devel-0.5.13-2.el8.x86_64.rpm
 
 ## MariaDB (SLURM Accounting Database)
 
