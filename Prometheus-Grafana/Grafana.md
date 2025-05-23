@@ -32,4 +32,7 @@ sudo systemctl start grafana-server
 sudo systemctl enable --now grafana-server
 sudo systemctl status grafana-server
 ```
+### 4. Access Grafana
+
+**Once Grafana is running, open your browser and navigate to: `http://<your-server-ip>:3000`**
 
